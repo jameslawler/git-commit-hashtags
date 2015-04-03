@@ -1,7 +1,11 @@
-# Git Commit Hashtags
+# Commit Hashtags
 
-## Introduction
+Commit messages tell the on-going story of a project. Each commit message is a chapter of the project's story, with a short title that summarises the changes and then a few descriptive sentences or paragraphs explaining each change.
 
-## Usage
+Commit hashtags extend [existing commit messages](http://git-scm.com/book/ch5-2.html) with contextually meaningful hashtags, inspired by [Twitter hashtags](http://en.wikipedia.org/wiki/Hashtag). The commit hashtag/s appear after the commit message and provide a method of grouping and extracting meaningful data from commit messages.
 
-## Analysis
+Commits which contain commit hashtags can be analysed by scanning the git log and aggregating the commit hashtag usages over time periods, per author, or with other commit metrics.
+
+## How to use
+
+## How to analyse
