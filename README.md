@@ -13,3 +13,11 @@ Commits which contain commit hashtags can be analysed by scanning the git log an
 `Refactor image processing logic #TDD #Refactor`
 
 ## Analysing git messages
+
+The git commits can be analysed to retrieve development statistics. This can be done through the `git log` command in the console. Sample analysis commands are;
+
+`git log --oneline --grep="#TDD"`
+ 
+`git log --oneline --author="James Lawler" --grep="#TDD"`
+ 
+`git log --oneline --author="James Lawler" --after="2015-01-01" --grep="#TDD"`
