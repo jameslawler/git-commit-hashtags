@@ -6,6 +6,10 @@ Commit hashtags extend [existing commit messages](http://git-scm.com/book/ch5-2.
 
 Commits which contain commit hashtags can be analysed by scanning the git log and aggregating the commit hashtag usages over time periods, per author, or with other commit metrics.
 
-## How to use
+## Sample git commit mesages
 
-## How to analyse
+`Add new class to analyse raw image data #TDD`
+
+`Refactor image processing logic #TDD #Refactor`
+
+## Analysing git messages
