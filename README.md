@@ -21,3 +21,13 @@ The git commits can be analysed to retrieve development statistics. This can be 
 `git log --oneline --author="James Lawler" --grep="#TDD"`
  
 `git log --oneline --author="James Lawler" --after="2015-01-01" --grep="#TDD"`
+
+## Common commit hashtags
+
+Each project or team should use a common set of commit hashtags that are known by all team members. This will help improve the consistency of the statistics. A sample set of hash tags could be;
+
+Hashtag       | Purpose
+------------- | -------------
+#TDD          | When using test driven development
+#Refactor     | When existing code has been refactored
+#Legacy       | When working on legacy code
